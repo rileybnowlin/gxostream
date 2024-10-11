@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Refresh Web App</title>
+    <script>
+        setInterval(function(){
+            window.location.href = "https://www.fieldglass.net/job_posting_list.do?cf=1";  // Refreshes the specific URL every 10 seconds
+        }, 10000);  // Refresh every 10 seconds (10000 milliseconds)
+    </script>
+</head>
+<body>
+    <h1>This page will refresh every 10 seconds</h1>
+    <p>Refreshing URL: <a href="https://www.fieldglass.net/job_posting_list.do?cf=1">fieldglass.net job postings</a></p>
+</body>
+</html>
